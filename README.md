@@ -28,7 +28,7 @@ Each team member worked on individual stories. My focus was on the front-end dev
 
 ## User Stories
 1. [Create Entity Model](#create-entity-model)
-2. [Create & Edit View](#create-edit-view)
+2. [Create & Edit View](#create--edit-view)
 3. [Index View](#index-view)
 4. [Sorting Rental History](#sorting-rental-history)
 
