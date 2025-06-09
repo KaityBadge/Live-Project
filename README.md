@@ -60,9 +60,12 @@ the label will switch to display "Notes". This improved the forms usability by p
 &emsp; In this story I fully customized the Index page to show all of the Rental Histories in tabular form. I stylized the table similar to the Create and Edit views 
 with a few minor adjustments using Bootstrap components and customized css classes. I used Font-Awesome for the status icons that displayed next to each rental-- 
 a green checkmark for undamaged rentals and a red X for the damaged rentals. The rental name is displayed next to the icon using a Bootstrap badge, helping it stand out within the cell. 
-I changed the text behavior of DamagesIncurred text by using a text-muted class, to have text greyed out if the rental was not damaged. Finally, I truncated the text with ellipses(...) 
-if the text was too long and exceeded the width of the cell to prevent it from wrapping to a new line. To add a more visually appealing format, I put a vertical ellipse icon on the right 
-side of each row which would appear when a user hovered over a row. This vertical ellispe was completed with a dropdown menu to show Edit, Details, and Delete options.
+I changed the text behavior of DamagesIncurred text by using a text-muted class, to have text greyed out if the rental was not damaged. Finally, I truncated the text with an ellipsis(...) 
+if the text was too long and exceeded the width of the cell to prevent it from wrapping to a new line. To add a more visually appealing format, I put a vertical ellipsis on the right 
+side of each row which will appear when a user hovers over a row. This vertical ellipsis was completed with a dropdown menu to show Edit, Details, and Delete options.
+
+![Index View GIF](Media/details.gif)
+
 
 ### Sorting Rental History
 &emsp; My final story of the sprint consisted of enhancing the usability of the Index page. I implemented dynamic client-side sorting for rental history records using vanilla JavaScript, 
