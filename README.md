@@ -69,6 +69,6 @@ side of each row which would appear when a user hovered over a row. This vertica
 allowing users to filter and sort entries without reloading the page. The sorting method uses data-damaged attributes to filter through damaged or undamaged rentals. I also used 
 localeCompare method on the data-title attribute to sort the rentals alphabetically. 
 
-![Sorting Rental History GIF](Media/sortby.gif)
+![Sorting Rental History GIF](Media/SortBy.gif)
 
 ![Sorting Rental History JS](Media/SortLogic.png)
