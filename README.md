@@ -44,12 +44,17 @@ generated and kept in sync based on the model I defined. This allowed for a stre
 Once the model was created, I used Visual Studio's scaffolding tools to generate the CRUD pages. During this process, I selected and shared the Layout.cshtml file as the layout page to maintain 
 visual consistency across the site. 
 
+
 ### Create & Edit View
 &emsp; This story was relatively simple however I still ran into some styling challenges for the Create and Edit pages, specifically with overriding Bootstrap classes.
 My page layout was as I intended, though Bootstraps default styling gave it a few unexpected adjustments. I resolved this issue by applying my own custom formatting 
 in Rent.css that would override specific Bootstrap styles. Additionally, I implemented a bit of front-end logic in Rent.js. This script adds dynamic behavior to the 
 RentalDamaged checkbox. When the checkbox is selected, the label for DamagesIncurred will change to display "Damages Incurred"; when the checkbox is unchecked, 
 the label will switch to display "Notes". This improved the forms usability by providing context-specific labeling based on user input. 
+
+![Create and Edit CSS GIF](Media/checkbox.gif)
+
+![Create and Edit View JS](Media/CheckBoxLogic.png)
 
 ### Index View
 &emsp; In this story I fully customized the Index page to show all of the Rental Histories in tabular form. I stylized the table similar to the Create and Edit views 
@@ -63,3 +68,7 @@ side of each row which would appear when a user hovered over a row. This vertica
 &emsp; My final story of the sprint consisted of enhancing the usability of the Index page. I implemented dynamic client-side sorting for rental history records using vanilla JavaScript, 
 allowing users to filter and sort entries without reloading the page. The sorting method uses data-damaged attributes to filter through damaged or undamaged rentals. I also used 
 localeCompare method on the data-title attribute to sort the rentals alphabetically. 
+
+![Sorting Rental History GIF](Media/sortby.gif)]
+
+![Sorting Rental History JS](Media/SortLogic.png)]
