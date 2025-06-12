@@ -3,7 +3,7 @@
 ## Introduction
 **Role:** Developer
 
-This project was developed during a two-week sprint by a collaborative team of developers using ASP.NET MVC and Entity Framework. 
+&emsp; This project was developed during a two-week sprint by a collaborative team of developers using ASP.NET MVC and Entity Framework. 
 Our goal was to build and interactive website for a theatre and acting company that allows non-technical users to easily manage website content and productions.
 <br> 
 This application is designed to:
@@ -11,7 +11,7 @@ This application is designed to:
 - Support subscriber login functionality
 - Maintain a wiki of past performances and performers
 
-## Project Overview:
+## Project Overview
 We followed an Agile/Scrum methodology
 - Daily stand-ups
 - Sprint planning sessions
@@ -35,7 +35,8 @@ intuitive user interface for users to review and interact with rental data.
 4. [Sorting Rental History](#sorting-rental-history)
 ##
 
-*Jump To: [Introduction](#introduction), [Project Overview](#project-overview), [Core Technologies](#core-technologies), [User Stories](user-stories), [Create Entity Model](#create-entity-model), [Create & Edit View](#create--edit-view), [Index View](#index-view), [Sorting Rental History](#sorting-rental-history)*
+*Jump To: [Introduction](#introduction), [Project Overview](#project-overview), [Core Technologies](#core-technologies), [User Stories](#user-stories), [Create Entity Model](#create-entity-model), 
+[Create & Edit View](#create--edit-view), [Index View](#index-view), [Sorting Rental History](#sorting-rental-history), [Key Skills](#key-skills--lessons-learned)*
 
 ### Create Entity Model
 &emsp; I was responsible for designing and implementing the RentalHistory entity model to support data persistence within the application. I created and defined a new class called RentalHistory 
@@ -75,3 +76,23 @@ localeCompare method on the data-title attribute to sort the rentals alphabetica
 ![Sorting Rental History GIF](Media/SortBy.gif)
 
 ![Sorting Rental History JS](Media/SortLogic.png)
+
+
+## Key Skills & Lessons Learned
+
+### Scrum Development
+I gained hand-on experience working within a Scrum framework by actively participating in spring planning sessions, daily stand-ups, and retrospectives. Daily stand-ups proved essential for 
+team alignment and collaboration. For instance, a teammate and I encountered similar debugging issues in Visual Studio and were able to support each other in resolving them. This experience
+taught me the importance of organization, preparedness, and timely communication to improve overall team efficiency. 
+
+### Front-End Development
+Using HTML, CSS, and JavaScript, I developed responsive and accessible user interfaces aligned with project requirements and design guidelines. I refined my attention to detail and problem-solving
+skills through iterative testing and adjustments to achieve the desired behavior or UI elements. This process required patience, adaptability, and a willingness to learn from trial and error. 
+
+### Version Control
+I used Git to manage version control and maintain a clean, collaborative workflow. This included creating and managing feature branches, resolving merge conflicts, and following best practices.
+Utilizing Git allowed for efficient collaboration and ensured code integrity throughout the development lifecycle. 
+
+### Problem Solving & Debugging
+Debugging was one of the most challenging and rewarding aspects of the project. I often engaged in extensive independent research to troubleshoot issues and identify solutions. Over time, I learned 
+to balance self-reliance with collaboration by knowing when to seek guidance from mentors or fellow developers, which greatly improved my problem-solving efficiency.
