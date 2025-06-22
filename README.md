@@ -4,7 +4,7 @@
 **Role:** Developer
 
 &emsp; This project was developed during a two-week sprint by a collaborative team of developers using ASP.NET MVC and Entity Framework. 
-Our goal was to build and interactive website for a theatre and acting company that allows non-technical users to easily manage website content and productions.
+Our goal was to build an interactive website for a theatre and acting company that allows non-technical users to easily manage website content and productions.
 <br> 
 This application is designed to:
 - Provide a user-friendly content management system
